@@ -23,6 +23,19 @@
     "dev": {
       "cache": false,
       "persistent": true
+    },
+    "db:generate": {
+      "dependsOn": []
+    },
+    "db:migrate": {
+      "dependsOn": []
+    },
+    "db:push": {
+      "dependsOn": []
+    },
+    "db:studio": {
+      "cache": false,
+      "persistent": true
     }
   }
 }
